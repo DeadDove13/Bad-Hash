@@ -19,7 +19,7 @@ This script is more of a fun side project and is not designed to compete with pr
 ## How to Use
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/reponame.git
+    gh repo clone DeadDove13/Bad-Hash
     ```
 2. Ensure you have the required dictionary file (`common_passwords.txt`) and the `BouncyCastle.Crypto.dll` file in the working directory.
 3. Run the script in PowerShell:
