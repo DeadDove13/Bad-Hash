@@ -8,12 +8,6 @@ This project is:
 - A learning exercise to understand hash functions like MD5, SHA1, SHA256, and SHA3.
 - Not intended for serious or production use.
 
-## Why Use This?
-You might want to use this script if:
-- You are curious about how hash algorithms work.
-- You want to learn PowerShell scripting in a hands-on way.
-- You are looking for a simple example of how to implement dictionary-based attacks.
-
 ## Why There Are Better Options
 Professional tools like Hashcat or John the Ripper are:
 - Faster and more efficient.
@@ -33,10 +27,6 @@ This script is more of a fun side project and is not designed to compete with pr
     .\HashCracker.ps1
     ```
 4. Follow the prompts to input the hash value, optional salt, and dictionary file path.
-
-## Disclaimer
-This project is purely for fun and educational purposes. Use responsibly, and do not use this script for illegal activities. No guarantees are provided for its accuracy or efficiency.
-
 ---
 
 If you find this interesting or have ideas for improvement, feel free to fork and experiment!
