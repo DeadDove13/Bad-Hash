@@ -28,7 +28,7 @@ $githubText = "GitHub: DeadDove13"
 # Display ASCII art, GitHub information, and script description
 Write-Host $asciiArt -ForegroundColor DarkGreen
 Write-Host $githubText -ForegroundColor $colors.Info
-Write-Host "\nThis script attempts to crack a given hash using a dictionary-based approach." -ForegroundColor $colors.Description
+Write-Host "`nThis script attempts to crack a given hash using a dictionary-based approach." -ForegroundColor $colors.Description
 
 # Load BouncyCastle for SHA-3
 try {
@@ -171,6 +171,6 @@ while ($true) {
         Clear-Host
         Write-Host $asciiArt -ForegroundColor DarkGreen
         Write-Host $githubText -ForegroundColor $colors.Info
-        Write-Host "\nThis script attempts to crack a given hash using a dictionary-based approach." -ForegroundColor $colors.Description
+        Write-Host "`nThis script attempts to crack a given hash using a dictionary-based approach." -ForegroundColor $colors.Description
     }
 }
