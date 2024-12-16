@@ -24,7 +24,7 @@ This script is more of a fun side project and is not designed to compete with pr
 2. Ensure you have the required dictionary file (`common_passwords.txt`) and the `BouncyCastle.Crypto.dll` file in the working directory.
 3. Run the script in PowerShell:
     ```powershell
-    .\HashCracker.ps1
+    .\BadHash.ps1
     ```
 4. Follow the prompts to input the hash value, optional salt, and dictionary file path.
 ---
